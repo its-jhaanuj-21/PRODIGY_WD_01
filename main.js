@@ -79,9 +79,9 @@ window.addEventListener('scroll', scrollActive)
 
 
 /*=============== LOCK RIGHT CLICK - PREVENT INSPECT =============*/
-// document.addEventListener('contextmenu', function(e) {
-//     e.preventDefault();
-//   });
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
 
 
   document.addEventListener('keydown', function(e) {
